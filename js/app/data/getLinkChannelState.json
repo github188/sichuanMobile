@@ -1,0 +1,71 @@
+ {
+    "pieByChannel": [  
+        {
+            "name": "安迅机房",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "1",
+            "value": "22%"
+        },
+        {
+            "name": "四川省厅",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "2",
+            "value": "11%"
+        },
+        {
+            "name": "成都市局",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "3",
+            "value": "15.5%"
+        }
+    ],
+    "totalFlowNow": [    
+        {
+            "name": "安迅机房",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "1",
+            "value": "11G"
+        },
+        {
+            "name": "四川省厅",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "2",
+            "value": "12G"
+        },
+		{
+            "name": "成都市局",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "3",
+            "value": "22G"
+        }
+    ],
+    "accessNumNow": [  
+        {
+            "name": "安迅机房",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "1",
+            "value": "10"
+        },
+        {
+            "name": "四川省厅",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "2",
+            "value": "11"
+        },
+		 {
+            "name": "成都市局",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "3",
+            "value": "13"
+        }
+    ]
+}

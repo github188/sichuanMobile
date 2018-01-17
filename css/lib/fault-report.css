@@ -1,0 +1,206 @@
+.fault-report {
+	font-family:"微软雅黑";
+	color:#fff;
+}
+.fault-report .title{
+	font-size:20px;
+	margin-bottom: 20px;
+}
+.fault-report .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #0d1a2f;
+}
+.fault-report .table-bordered {
+  border: 1px solid #639a9d;
+  /*border-bottom: 1px solid #639a9d;*/
+  /*border-left: 1px solid #639a9d;*/
+  /*border-right: 0;*/
+}
+.fault-report table > thead > tr th{
+	height:60px;
+	line-height:60px;
+	background:#082d4d;
+	color:#fff;
+}
+.fault-report table > thead > tr >th,
+.fault-report table > tbody > tr >td{
+	text-align:center;
+	color:#fff;
+}
+.fault-report .table-bordered > thead > tr > th,
+.fault-report .table-bordered > tbody > tr > th,
+.fault-report .table-bordered > tfoot > tr > th{
+	border-left: 1px solid #639a9d;
+  	border-right: 1px solid #639a9d;
+  	border-top: 1px solid #639a9d;
+  	border-bottom: 1px solid #639a9d;
+}
+
+.fault-report .table-bordered > thead > tr > td,
+.fault-report .table-bordered > tbody > tr > td,
+.fault-report .table-bordered > tfoot > tr > td {
+  border-left: 0;
+  border-right: 1px solid #639a9d;
+  border-top: 0;
+  border-bottom: 0;
+ vertical-align: middle;
+}
+.city-assess-handle .title{
+	color: #0095da;
+	font-size:24px;
+}
+.city-assess-handle .row{
+	margin:0
+}
+.city-assess-handle .btn-primary{
+	background:#0087cd;
+	border:#0087cd;
+	margin-bottom:20px;
+}
+.city-assess-handle .grade-cycle{
+	padding-top: 11px;
+	line-height: 27px;
+	/*width:13%;*/
+}
+.city-assess-handle .form_group .grade-cycle{
+	min-width:300px;
+	margin-bottom: 30px
+}
+.city-assess-handle .form_group{
+	width: 70%;
+	min-width: 1300px;
+}
+.city-assess-handle .grade-cycle > span{
+    width: 75px;
+    display: block;
+    text-align: right;	
+}	
+.city-assess-handle .grade-cycle .form-control{
+	width: 160px;
+    border: 1px solid #0087CD;
+    background: rgba(0,0,0,00.9);
+    color: #FFF;
+}	
+	
+.city-assess-handle .dropdown{
+		float: left;
+		height:27px;
+	}
+.city-assess-handle .dropdown button{
+		position:relative;
+	    width: 150px;
+		background:transparent;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius:5px;	
+		border:1px solid #00778d;
+		text-align: left;
+		overflow: hidden;
+	}
+.city-assess-handle .dropdown .arrow{
+		position: absolute;
+    	top: -1px;
+    	right: 0;
+    	display: inline-block;
+    	width: 30px;
+    	height: 30px;
+    	border-left: 1px solid #00778d;
+    	border-top:1px solid #00778d;
+    	background:#014669;
+	}
+.city-assess-handle .dropdown span{
+		padding: 0;
+	}
+.city-assess-handle .dropdown .caret{
+		margin-left:10px;
+		font-size:20px;
+	}
+.city-assess-handle .grade-cycle .dropdown-menu {
+	    min-width: 150px;
+	    background: #0c1b36;
+	    border: 1px solid #00778d;
+	}
+.city-assess-handle .grade-cycle .dropdown-menu li{
+	    padding-left:20px ;
+	}
+.city-assess-handle .grade-cycle .dropdown-menu li:hover{
+	    background: #38E1FF;
+	}
+.city-assess-handle .year-query{
+	margin-top:10px;
+}
+.city-assess-handle .year-query{
+	border:1px solid #5196a0;
+	background:#014669;
+	color:#fff;
+}
+
+.town-information{
+	font-family:"微软雅黑";
+	height: 50px;
+	padding-top: 15px;
+	border-left: 1px solid #639a9d;
+    border-top:1px solid #639a9d;
+    border-right:1px solid #639a9d;
+	color: #fff;
+	background: #082b4a;
+	clear: both;
+	margin-bottom: -1px;
+}
+.town-information .current-info{
+	font-size: 16px;
+    padding-left: 10px;
+}
+.town-information .more-info a{
+	font-size:16px;
+	padding-right: 10px;
+	color: #9ab7d4;
+	text-decoration: none;
+	
+}
+.town-information .more-info a:hover{
+	color: #ddd;
+	text-decoration: none;
+	
+}
+.town table > thead > tr th{
+	/*height:50px;
+	line-height:1.4 ;*/
+}
+.fault-report .echart_con{
+	border-radius: 0;
+	margin: 0;
+	width: 100%;
+	border: 1px solid #639a9d;
+	margin-bottom: 20px;
+	margin-top: -1px;
+}
+.town .all-condition{
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	background: #082b4a;
+	/*border-top: 1px solid #639a9d;
+	border-left: 1px solid #639a9d;
+	border-right: 1px solid #639a9d;*/
+}
+.check-fault-rate{
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	background: #082b4a;
+	border-top: 1px solid #639a9d;
+	border-left: 1px solid #639a9d;
+	border-right: 1px solid #639a9d;
+	padding-left: 10px;
+}
+.dataTables_wrapper {
+	margin-bottom: 20px;
+}
+.dataTable > thead > tr > th, 
+.dataTable > tbody > tr > th, 
+.dataTable  > tfoot > tr > th{
+	border-left: none !important;
+}
+.fault-left>.btn_group>.btn-primary{
+	width: 150px;
+	height: 36px;
+}

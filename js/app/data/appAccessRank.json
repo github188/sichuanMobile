@@ -1,0 +1,32 @@
+{
+    "result": [
+        {
+            "name": "巡逻盘查",   
+            "totleNum": 456,   
+            "alarmNum": null,
+            "title": null,
+            "value": null         
+        },
+        {
+            "name": "OA",
+            "totleNum": 234,
+            "alarmNum": null,
+            "title": null,
+            "value": null
+        },
+        {
+            "name": "rtx",
+            "totleNum": 123,
+            "alarmNum": null,
+            "title": null,
+            "value": null
+        },
+        {
+            "name": "qq",
+            "totleNum": 22,
+            "alarmNum": null,
+            "title": null,
+            "value": null
+        }
+    ]
+}

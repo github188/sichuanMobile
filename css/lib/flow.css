@@ -1,0 +1,90 @@
+.flow{
+	float:left;
+	width:100%;
+	list-style: none;
+}
+.flow > div{
+	float:left;
+}
+
+.flowContainer{
+	
+	margin: 10px 50px;
+}
+.flow > .item{
+	width:10%;
+	
+}
+.flow > .item > div{
+	width:68px;
+	height:68px;
+	background:url("../images/net-manage/flow/gray.png") no-repeat;
+margin:auto;
+}
+.flow > .item > div > span{
+	float:left;
+}
+.flow > .ready > div{
+	background:url("../images/net-manage/flow/green.png") no-repeat;
+}
+.flow > .active {
+	cursor: pointer;
+}
+.flow > .active > div{
+	background:url("../images/net-manage/flow/yellow.png") no-repeat;
+}
+.line{
+	width:12.5%;
+	height:2px;
+}
+.line > span{
+	width:100%;
+	float:left;
+	background:url("../images/net-manage/flow/point.gif") repeat-x;
+	height:3px;
+	margin-top:30px;
+}
+.line > .animate-line{
+	width:0px;
+}
+.line > .green{
+	background:url("../images/net-manage/flow/point-green.gif") repeat-x;
+}
+.flow > .item > div > .icon{
+	height:100%;
+	width:100%;
+}
+.flow > .item > div > .icon2{
+	background:url("../images/net-manage/flow/2.png") center no-repeat;
+	height:100%;
+	width:100%;
+}
+.flow > .item > div > .icon3{
+	background:url("../images/net-manage/flow/3.png") center no-repeat;
+	height:100%;
+	width:100%;
+}
+.flow > .item > div > .icon4{
+	background:url("../images/net-manage/flow/4.png") center no-repeat;
+	height:100%;
+	width:100%;
+}
+.flow > .item > div > .icon5{
+	background:url("../images/net-manage/flow/5.png") center no-repeat;
+	height:100%;
+	width:100%;
+}
+.flow > .item > div > .text{
+	clear: both;
+	text-align:center;
+	font-size:14px;
+	color:#ccc;
+	width:100%;
+}
+.flow > .ready > div > .text,.flow > .active > div > .text{
+	color:#333;
+}
+.flowContent{
+	float:left;
+}
+

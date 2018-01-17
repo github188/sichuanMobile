@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>江苏省公安信通网运行服务管理考核系统</title>
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+	      Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link rel="stylesheet" href="../css/lib/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/lib/bootstrap-select.min.css" />
+		<link rel="stylesheet" href="../css/lib/ionicons.min.css" />
+		<link rel="stylesheet" href="../css/lib/font-awesome.min.css">
+		<link rel="stylesheet" href="../css/lib/ionicons.min.css">
+		<link rel="stylesheet" href="../css/lib/ie.css">
+		<link rel="stylesheet" href="../css/lib/dataTables.bootstrap.css">
+		<link rel="stylesheet" href="../css/lib/responsive.bootstrap.min.css">
+		<link rel="stylesheet" href="../css/lib/bootstrap-datetimepicker.min.css">
+		<link rel="stylesheet" href="../css/lib/flow.css">
+		<link rel="stylesheet" href="../css/lib/green.css">
+		<link rel="stylesheet" href="../css/lib/popover.css">
+		<link rel="stylesheet" href="../css/fonts/iconfont.css" />
+		<link rel="stylesheet" href="../css/app/theme.css" />
+		<script src="../js/lib/require.js"></script>
+		<script src="../js/lib/config.js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lte IE 6]>
+          <link rel="stylesheet" type="text/css" href="../css/lib/bootstrap-ie6-min.css">
+          <![endif]-->
+		<!--[if lte IE 7]>
+          <link rel="stylesheet" type="text/css" href="../css/lib/ie.css">
+          <![endif]-->
+		<!--[if lt IE 9]>
+            <script src="../js/lib/html5shiv.min.js"></script>
+            <script src="../js/lib/respond.min.js"></script>
+          <![endif]-->
+		<!--[if lte IE 6]>
+            <script type="text/javascript" src="../js/lib/bootstrap-ie.js"></script>
+          <![endif]-->
+		<!--[if IE]>  
+            <script type="text/javascript" src="../js/lib/excanvas.compiled.js"></script>  
+          <![endif]-->
+	</head>
+	<body>
+		<!--body beginning-->
+			<!--header beginning-->
+			<div class="container-fluid header-box">
+				<div class="row-fluid">
+					<div class="col-md-3 time-box"></div>
+					<div class="col-md-6 text-center">
+						<img class="" src="../images/title.png" alt=""/>
+					</div>
+					<div class="col-md-3 text-right">
+						<button class="btn btn-border into-system">进入系统</button>
+						<button class="btn btn-border">资料下载</button>
+					</div>
+				</div>
+			</div>
+			<!--header end-->
+			<div class="container-fluid">
+				<div class="col-md-2">
+					<!--left beginning-->
+					<!--终端资源-->
+					<div class="box-common" style="height: 238px;">
+						<img class="left-decorate" src="../images/left-bar.png" alt=""/>
+						<img class="bottomright-corner" src="../images/bottomright-corner.png" alt=""/>
+						<div class="box-header clearfix">
+							<h4>终端资源</h4>
+						</div>
+						<div class="box-body">
+							<table class="table table-right table-striped" id="terminalRes">
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<!--应用下载排行-->
+					<div class="box-common" style="height: 298px;">
+						<img class="left-decorate" src="../images/left-bar.png" alt=""/>
+						<img class="bottomright-corner" src="../images/bottomright-corner.png" alt=""/>
+						<div class="box-header clearfix">
+							<h4>应用下载排行</h4>
+						</div>
+						<div class="box-body">
+							<table class="table app-download">
+								<tbody>
+									
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<!--应用访问排行-->
+					<div class="box-common" style="height: 288px;">
+						<img class="left-decorate" src="../images/left-bar.png" alt=""/>
+						<img class="bottomright-corner" src="../images/bottomright-corner.png" alt=""/>
+						<div class="box-header clearfix">
+							<h4>应用访问排行</h4>
+						</div>
+						<div class="box-body">
+							<table class="table table-striped app-visit">
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<!--left end-->
+				</div>
+				<div class="col-md-6">
+					<!--middle beginning-->
+					<div class="box-common special-box">
+						<img class="topleft-corner" src="../images/topleft-corner.png" alt=""/>
+						<img class="topright-corner" src="../images/topright-corner.png" alt=""/>
+						<img class="bottomleft-corner" src="../images/bottomleft-corner.png" alt=""/>
+						<img class="bottomright-corner" src="../images/bottomright-corner.png" alt=""/>
+						<img class="right-decoration" src="../images/right-decoration.png" alt=""/>
+						<div class="box-header clearfix">
+							<h4>当前在线终端数： <span class="num-box"></span></h4>
+						</div>
+						<div class="box-body">
+							<div class="map-box">
+								<div id="sichuanMap"></div>
+							</div>
+						</div>
+						<div class="num-list-box" style="display: none;">
+							<img class='left-decorate' style='left: 0px;top: 13px;box-shadow: 1px 1px 13px #22aac5;' src='../images/right-bar.png' alt=''>
+							<ul class="num-list">
+								<li><span class='title'>地市</span><span class='num'>内网在线数</span><span class='num'>开机在线数</span></li>
+							</ul>
+							<ul class="num-list">
+							</ul>
+						</div>
+							
+					</div>
+					<!--middle end-->
+				</div>
+				<div class="col-md-4">
+					<!--right beginning-->
+					<!--营运商态势 beginning-->
+					<div class="box-common clearfix">
+						<img class="topright-corner" src="../images/topright-corner.png" alt=""/>
+						<img class="bottomleft-corner" src="../images/bottomleft-corner.png" alt=""/>
+						<img class="right-decorate" src="../images/right-decorate.png" alt=""/>
+						<div class="box-header clearfix">
+							<h4>运营商态势</h4>
+						</div>
+						<div class="box-body">
+							<div class="compare-box">
+								<div class="row-fluid clearfix">
+									<div class="col-md-12 text-center">当日累计流量</div>
+									<div class="row-fluid" id="flowByDay">
+									</div>
+								</div>
+								<div class="row-fluid clearfix">
+									<div class="col-md-12 text-center">当前带宽利用率</div>
+									<div class="row-fluid" id="pieByOperator">
+									</div>
+								</div>
+							</div>
+							<div class="" id="bar-box"></div>
+						</div>
+					</div>
+					<!--营运商态势 end-->
+					<!--链路通道态势 beginning-->
+					<div class="box-common clearfix" style="height: 240px;">
+						<img class="topright-corner" src="../images/topright-corner.png" alt=""/>
+						<img class="bottomleft-corner" src="../images/bottomleft-corner.png" alt=""/>
+						<img class="right-decorate" src="../images/right-decorate.png" alt=""/>
+						<div class="box-header clearfix">
+							<h4>链路通道态势</h4>
+						</div>
+						<div class="box-body">
+							<table class="table table-striped text-center channel-table">
+								<thead>
+									<tr><td></td><td>当前访问数量</td><td>访问公安网流量</td><td>当前宽带利用率</td></tr>
+								</thead>
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<!--链路通道态势 end-->
+					<!--right end-->
+				</div>
+			</div>
+		<!--body end-->
+		<script>
+			require(["app/index/indexApp"], function(page) {
+				page.run();
+			});
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

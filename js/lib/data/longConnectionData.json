@@ -1,0 +1,28 @@
+{
+	"top":{
+				"mod1":[
+							{"name":"a","value":39},
+							{"name":"b","value":24},
+							{"name":"c","value":32},
+							{"name":"d","value":15}
+						],
+				"mod2":[
+							{"name":"a","value":18},
+							{"name":"b","value":20},
+							{"name":"c","value":19},
+							{"name":"d","value":8}
+						],
+				"mod3":[
+							{"name":"a","value":14},
+							{"name":"b","value":27},
+							{"name":"c","value":4},
+							{"name":"d","value":10}
+						],
+				"mod4":[
+							{"name":"a","value":34},
+							{"name":"b","value":16},
+							{"name":"c","value":51},
+							{"name":"d","value":9}
+						]
+			}
+}

@@ -1,0 +1,32 @@
+{
+    "result": [
+        {
+            "app_name": "巡逻盘查",  
+            "down_num": 456, 
+            "alarmNum": null,
+            "title": null,
+            "score": "5"       
+        },
+        {
+           "app_name":  "OA",
+           "down_num": 234,
+           "alarmNum": null,
+           "title": null,
+           "score": "4"
+        },
+        {
+           "app_name":  "rtx",
+           "down_num": 123,
+           "alarmNum": null,
+           "title": null,
+           "score": "3"
+        },
+        {
+            "app_name": "qq",
+            "down_num": 22,
+            "alarmNum": null,
+            "title": null,
+            "score": "3"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "flowByDay": [    
+        {
+            "name": "移动",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "1",
+            "value": "1.1G"
+        },
+        {
+            "name": "联通",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "2",
+            "value": "2G"
+        },
+        {
+            "name": "电信",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "3",
+            "value": "3G"
+        }
+    ],
+    "openedCardUserNum": [  
+        {
+            "name": "移动",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "1",
+            "value": "397"
+        },
+        {
+            "name": "联通",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "2",
+            "value": "269"
+        },
+        {
+            "name": "电信",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "3",
+            "value": "363"
+        }
+    ],
+    "pieByOperator": [   
+        {
+            "name": "移动",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "1",
+            "value": "11%"
+        },
+        {
+            "name": "联通",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "2",
+            "value": "12.4%"
+        },
+        {
+            "name": "电信",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "3",
+            "value": "12.5%"
+        }
+    ],
+    "bootedUserNum": [  
+        {
+            "name": "移动",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "1",
+            "value": "71"
+        },
+        {
+            "name": "联通",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "2",
+            "value": "26"
+        },
+        {
+            "name": "电信",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "3",
+            "value": "140"
+        }
+    ]
+}

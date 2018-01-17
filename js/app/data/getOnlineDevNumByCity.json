@@ -1,0 +1,102 @@
+{
+    "result": [
+        {
+            "name": "省厅",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5100",
+            "value": "7"  
+        },
+        {
+            "name": "成都",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5101",   
+            "value": "8"
+        },
+        {
+            "name": "自贡",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5103",
+            "value": "1244640"
+        },
+        {
+            "name": "攀枝花",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5107",
+            "value": "6034329"
+        },
+        {
+            "name": "攀枝花",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5108",
+            "value": "3"
+        },
+        {
+            "name": "遂宁",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5109",
+            "value": "1"
+        },
+        {
+            "name": "内江",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5110",
+            "value": "2"
+        },
+        {
+            "name": "眉山",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5114",
+            "value": "3"
+        },
+        {
+            "name": "宜宾",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5115",
+            "value": "2"
+        },
+        {
+            "name": "广安",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5116",
+            "value": "1"
+        },
+        {
+            "name": "雅安",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5118",
+            "value": "1"
+        },
+        {
+            "name": "巴中",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5119",
+            "value": "2"
+        },
+        {
+            "name": "资阳",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5120",
+            "value": "7"
+        },
+        {
+            "name": "甘孜",
+            "totleNum": null,
+            "alarmNum": null,
+            "title": "5133",
+            "value": "4"
+        }
+    ]
+}

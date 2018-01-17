@@ -1,0 +1,15 @@
+{
+	"data":[
+			{"cityId":"1","cityName":"南京"},
+			{"cityId":"2","cityName":"徐州"},
+			{"cityId":"3","cityName":"无锡"},
+			{"cityId":"4","cityName":"镇江"},
+			{"cityId":"5","cityName":"苏州"},
+			{"cityId":"6","cityName":"扬州"},
+			{"cityId":"7","cityName":"盐城"},
+			{"cityId":"8","cityName":"宿迁"},
+			{"cityId":"9","cityName":"淮安"},
+			{"cityId":"10","cityName":"连云港"},
+			{"cityId":"11","cityName":"淮南"}
+		]
+}

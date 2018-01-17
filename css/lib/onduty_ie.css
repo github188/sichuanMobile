@@ -1,0 +1,11 @@
+.col-md-4{
+	width: 33.333333%;
+	float: left;
+	}
+.col-md-8{
+	width: 66.666667%;
+	float: right;
+}
+.col-lg-2{
+	width: 16.66666667%;
+} 

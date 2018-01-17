@@ -1,0 +1,19 @@
+{
+"recordsTotal":57,"recordsFiltered":57,
+"data":[
+    {
+      "id":"1-1",
+      "node": "route1",
+      "status": {"value":0,"label":"up 1/2"},
+      "warningStatus":{"value":0,"label":"正常"},
+      "warningNum":0
+    },
+    {
+      "id":"1-2",
+      "node": "route2",
+      "status": {"value":0,"label":"up 1/2"},
+      "warningStatus":{"value":0,"label":"正常"},
+      "warningNum":0
+    }
+]
+}
